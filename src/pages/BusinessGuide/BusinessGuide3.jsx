@@ -8,15 +8,14 @@ import Bener from "../../components/Bener/Bener";
 import FixIcon from "../../components/FixIcon/FixIcon";
 import { Helmet } from "react-helmet-async";
 
-// import page1 from "../../assets/BusinessGuide/documents/contract.jpg";
+import page1 from "../../assets/BusinessGuide/documents/contract.jpg";
 
-import Ready from "../../components/Ready/Ready";
 
 const BusinessGuide2 = () => {
 	const menuContents = [
 		{ title: "사업안내", url: "/BusinessGuide/intro" },
     	{ title: "분양일정", url: "/BusinessGuide/plan" },
-    	// { title: "계약서류안내", url: "/BusinessGuide/documents" },
+    	{ title: "계약서류안내", url: "/BusinessGuide/documents" },
 	];
 	const [isScroll, setIsScroll] = useState(false);
 	const [selectedOption, setSelectedOption] = useState(1); // 선택된 옵션 (1~6)
@@ -107,11 +106,11 @@ const BusinessGuide2 = () => {
 
 
 			{/* 이미지에 isImageVisible 상태 적용 */}
-			{/* <img className={`${styles.image4} ${isImageVisible ? styles.visible : ''}`} src={page1} alt="평택 브레인시티 푸르지오 계약서류안내-image1" /> */}
+			<img className={`${styles.image4} ${isImageVisible ? styles.visible : ''}`} src={page1} alt="평택 브레인시티 푸르지오 계약서류안내-image1" />
 
 
 
-			<Ready/>
+
 
 
 			<Footer /> 

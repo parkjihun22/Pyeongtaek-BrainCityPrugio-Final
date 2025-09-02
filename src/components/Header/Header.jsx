@@ -60,15 +60,17 @@ const menuArray = [
       { subTitle: "59B", subUrl: "/FloorPlan/59B" },
       { subTitle: "84A", subUrl: "/FloorPlan/84A" },
       { subTitle: "84B", subUrl: "/FloorPlan/84B" },
-      { subTitle: "114A", subUrl: "/FloorPlan/114A" },
-      { subTitle: "114B", subUrl: "/FloorPlan/114B" },
+      { subTitle: "119A", subUrl: "/FloorPlan/114A" },
+      { subTitle: "119B", subUrl: "/FloorPlan/114B" },
       { subTitle: "E-모델하우스", subUrl: "/FloorPlan/Emodel" },
     ],
   },
   {
     title: "인테리어",
     subMenu: [
-      { subTitle: "인테리어", subUrl: "/Interior/59A" },
+      { subTitle: "84A", subUrl: "/Interior/59A" },
+      { subTitle: "119A", subUrl: "/Interior/84A" },
+      { subTitle: "119B", subUrl: "/Interior/84B" },
     ],
   },
   {

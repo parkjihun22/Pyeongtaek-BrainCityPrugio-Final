@@ -7,9 +7,9 @@ import Footer from "../../components/Footer/Footer";
 import Bener from "../../components/Bener/Bener";
 import FixIcon from "../../components/FixIcon/FixIcon";
 import { Helmet } from "react-helmet-async";
-// import page1 from "../../assets/SalesInfo/guide/page1.jpg"
+import page1 from "../../assets/SalesInfo/guide/page1.jpg"
 
-import Ready from "../../components/Ready/Ready";
+
 
 
 const ComplexGuide1 = () => {
@@ -85,14 +85,12 @@ const ComplexGuide1 = () => {
 
 
       {/* 이미지에 애니메이션 효과 추가 */}
-      {/* <img
+      <img
         className={`${styles.image2} ${isImage2Loaded ? styles.showImage2 : ''}`}
         src={page1}
-        alt="평택 브레인시티 푸르지오 - 청약안내문 -image1"
+        alt="평택 브레인시티 푸르지오 - 인터넷청약안내문 이미지1"
         onLoad={handleImageLoad}  // 이미지 로드 후 애니메이션 실행
-      /> */}
-
-      <Ready/>
+      />
 
 
 

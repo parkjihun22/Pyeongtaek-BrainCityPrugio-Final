@@ -9,14 +9,13 @@ import FixIcon from "../../components/FixIcon/FixIcon";
 import { Helmet } from "react-helmet-async";
 
 
-// import page1 from "../../assets/BusinessGuide/BusinessGuide2/page1.jpg";
-import Ready from "../../components/Ready/Ready";
+import page1 from "../../assets/BusinessGuide/BusinessGuide2/page1.jpg";
 
 const BusinessGuide2 = () => {
     const menuContents = [
-      { title: "사업안내", url: "/BusinessGuide/intro" },
-      { title: "분양일정", url: "/BusinessGuide/plan" },
-      // { title: "계약서류안내", url: "/BusinessGuide/documents" },
+		{ title: "사업안내", url: "/BusinessGuide/intro" },
+    	{ title: "분양일정", url: "/BusinessGuide/plan" },
+    	{ title: "계약서류안내", url: "/BusinessGuide/documents" },
     ];
 
     const [isScroll, setIsScroll] = useState(false);
@@ -80,13 +79,13 @@ const BusinessGuide2 = () => {
 
 
             {/* ✅ 기존 이미지 부분 주석 처리하고 Ready 컴포넌트 표시 */}
-            {/* <img className={`${styles.image4} ${isImageVisible ? styles.visible : ''}`} src={page1} alt="평택 브레인시티 푸르지오 분양일정안내-image1" /> */}
+            <img className={`${styles.image4} ${isImageVisible ? styles.visible : ''}`} src={page1} alt="평택 브레인시티 푸르지오 분양일정안내-image1" />
 
             <div className={styles.readyContainer}>
            
             </div>
 
-            <Ready/>
+
             <Footer />
         </div>
     );

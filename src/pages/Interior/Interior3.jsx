@@ -11,8 +11,8 @@ import HelmetCOM from "../../components/HelmetCOM/HelmetCOM";
 import { Helmet } from "react-helmet-async";
 
 // 이미지 파일을 추가해야 합니다
-//import page1 from "../../assets/Interior/Interior3/page1.jpg";
-import Ready from "../../components/Ready/Ready";
+import page1 from "../../assets/Interior/Interior3/page1.jpg";
+
 
 const Interior3 = () => {
 	const menuContents = [
@@ -67,14 +67,14 @@ const Interior3 = () => {
 
 
 			{/* 이미지에 애니메이션 효과 추가 */}
-			{/*<img
+			<img
 				className={`${styles.image2} ${isImage2Loaded ? styles.showImage2 : ''}`}
 				src={page1}
-				alt="평택 브레인시티 푸르지오 119타입 인테리어안내 image"
+				alt="평택 브레인시티 푸르지오 인테리어 안내 이미지3"
 				onLoad={handleImageLoad}  // 이미지 로드 후 애니메이션 실행
-			/>*/}
+			/>
 
-			<Ready />
+
 
 			<div className={styles.commonBox2}>
 				<div className={styles.notice}>

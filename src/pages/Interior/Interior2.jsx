@@ -11,15 +11,16 @@ import HelmetCOM from "../../components/HelmetCOM/HelmetCOM";
 import { Helmet } from "react-helmet-async";
 
 
-// import page1 from "../../assets/Interior/Interior2/page1.jpg";
-import Ready from "../../components/Ready/Ready";
+import page1 from "../../assets/Interior/Interior2/page1.jpg";
+
 
 
 
 const Interior2 = () => {
   const menuContents = [
-    { title: "59㎡", url: "/Interior/59A" },
-    { title: "84㎡", url: "/Interior/84A" },
+    { title: "84A", url: "/Interior/59A" },
+    { title: "119A", url: "/Interior/84A" },
+    { title: "119B", url: "/Interior/84B" },
   ];
 
   const [isScroll, setIsScroll] = useState(false);
@@ -78,13 +79,12 @@ const Interior2 = () => {
 
 
       {/* 이미지에 애니메이션 효과 추가 */}
-      {/* <img
+      <img
 				className={`${styles.image2} ${isImage2Loaded ? styles.showImage2 : ''}`}
 				src={page1}
-				alt="평택 브레인시티 푸르지오 84A 인테리어 안내 이미지"
+				alt="평택 브레인시티 푸르지오 인테리어 안내 이미지2"
 				onLoad={handleImageLoad}  // 이미지 로드 후 애니메이션 실행
-			/> */}
-      <Ready/>
+			/>
 
       <div className={styles.commonBox2}>
         <div className={styles.notice}>
