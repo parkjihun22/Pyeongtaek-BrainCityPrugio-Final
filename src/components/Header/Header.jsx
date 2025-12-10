@@ -76,7 +76,7 @@ const menuArray = [
   {
     title: "홍보센터",
     subMenu: [
-      // { subTitle: "언론보도", subUrl: "/평택 브레인시티 푸르지오/press" },
+      { subTitle: "언론보도", subUrl: "/평택 브레인시티 푸르지오/press" },
       { subTitle: "관심고객등록", subUrl: "/Promotion/Customer" },
     ],
   },
