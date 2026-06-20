@@ -20,6 +20,7 @@ import InterestPopup from "../../components/InterestPopup/InterestPopup"; // 새
 import UnitInfoSection from "../../components/UnitInfoSection/UnitInfoSection";
 import MobileNewsSection from "../../components/MobileNewsSection/MobileNewsSection";
 import newsLists from "../../NewsList"
+import FAQSection from "../../components/FAQSection/FAQSection"
 
 import mainImage from "../../assets/Main/Main1.jpg";
 import section1_Image1 from "../../assets/Main/section1-img1.jpg";
@@ -435,6 +436,7 @@ const Main = () => {
             </div>
           </div>
           <div id="interestForm" className={styles.section}></div>
+          <FAQSection />
 
           {/* ================== 방문예약 섹션 (PC) ================== */}
           <div className={styles.pcVisitContainer}>
@@ -725,8 +727,9 @@ const Main = () => {
               </Link>
             </div>
           </div> */}
-          <MobileNewsSection newsList={newsLists} />
+          {/* <MobileNewsSection newsList={newsLists} /> */}
 
+          <FAQSection />
           {/* 모바일 방문예약 섹션 */}
           <div className={styles.mobileVisitContainer}>
             <h2>평택 브레인시티 푸르지오</h2>
